@@ -77,12 +77,12 @@
 ||youtube.com##+js(acis, Math.random, /^adobe\.com/)
 ||adobe.com^$third-party
 ||facebook.com##+js(acis, Math.random, /^adobe\.com/)
-||udemy.com^$third-party,domain=youtube.com
-||udemycdn.com^$third-party,domain=youtube.com
-||udemy-images.udemy.com^$third-party,domain=youtube.com
-||udemy.com^$third-party,domain=facebook.com
-||udemycdn.com^$third-party,domain=facebook.com
-||udemy-images.udemy.com^$third-party,domain=facebook.com
+||udemy.com^$domain=youtube.com
+||udemy.com^$script,domain=youtube.com
+||udemy.com^$subdocument,domain=youtube.com
+||*.udemy.com^$domain=youtube.com
+||*.udemy.com^$script,domain=youtube.com
+||*.udemy.com^$subdocument,domain=youtube.com
 ||youtube.com/*ad?video_id=$script,domain=youtube.com
 ||youtube.com/get_video_info?adformat=$script,domain=youtube.com
 ||youtube.com/api/stats/ads?$script,domain=youtube.com
@@ -126,3 +126,5 @@
 ! Bloqueo de anuncios de ABG Carlos Colombo en Facebook
 ||facebook.com##.fb_ad:has-text(ABG Carlos Colombo)
 ||facebook.com##.sponsored_ad:has-text(ABG Carlos Colombo)
+||mindvalley.com^$third-party
+||mindvalley.com^$media
