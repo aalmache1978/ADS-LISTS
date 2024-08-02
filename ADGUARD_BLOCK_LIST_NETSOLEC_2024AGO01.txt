@@ -136,3 +136,7 @@
 ||youtube.com/*ad_brainwareritual*
 ||youtube.com/*ad?brainware_ritual*
 ||youtube.com/*ad?brainwareritual*
+||abogadocolombo.com^
+||abogadocolombo.com^$third-party
+||abogadocolombo.com^$popup
+||abogadocolombo.com^$script
