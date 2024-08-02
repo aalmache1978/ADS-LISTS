@@ -1,0 +1,17 @@
+! LISTA PERSONALIZADA BLOCK NETSOLEC - 2024AGO01
+!
+# Bloquear anuncios de TEMU
+||temu.com^$third-party
+||ads.temu.com^
+||tracking.temu.com^
+||*.temu.com^$popup
+# Bloquear anuncios de TIENDAMIA
+||tiendamia.com^$third-party
+||ads.tiendamia.com^
+||tracking.tiendamia.com^
+||*.tiendamia.com^$popup
+# Bloquear anuncios de ABG CARLOS COLOMBO
+||colombohurdlaw.com^$third-party
+||ads.colombohurdlaw.com^
+||tracking.colombohurdlaw.com^
+||*.colombohurdlaw.com^$popup
