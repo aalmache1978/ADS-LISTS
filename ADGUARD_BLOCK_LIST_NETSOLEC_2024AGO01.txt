@@ -80,3 +80,20 @@
 ||ads.deuna.com^
 ||tracking.deuna.com^
 ||*.deuna.com^$popup
+! Bloquear anuncios de Udemy en YouTube
+||udemy.com^$domain=youtube.com
+||udemycdn.com^$domain=youtube.com
+||udemy-assets-on-demand.udemy.com^$domain=youtube.com
+! Bloquear anuncios de Udemy en Facebook
+||udemy.com^$domain=facebook.com
+||udemycdn.com^$domain=facebook.com
+||udemy-assets-on-demand.udemy.com^$domain=facebook.com
+! Bloquear anuncios de TEMU en YouTube
+||youtube.com^$domain=youtube.com|temu.com
+||googlevideo.com^$domain=youtube.com|temu.com
+||youtube-nocookie.com^$domain=youtube.com|temu.com
+! Bloquear anuncios de TEMU en Facebook
+||facebook.com^$domain=facebook.com|temu.com
+||fbcdn.net^$domain=facebook.com|temu.com
+||facebook.com/ads^$domain=facebook.com|temu.com
+||facebook.com/ad_campaign^$domain=facebook.com|temu.com
