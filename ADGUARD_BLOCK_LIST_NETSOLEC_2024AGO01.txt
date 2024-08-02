@@ -97,3 +97,7 @@
 ||fbcdn.net^$domain=facebook.com|temu.com
 ||facebook.com/ads^$domain=facebook.com|temu.com
 ||facebook.com/ad_campaign^$domain=facebook.com|temu.com
+||buscalibre.ec^$domain=youtube.com
+||buscalibre.ec/*ad
+||buscalibre.ec^$domain=facebook.com
+||buscalibre.ec/*ad
