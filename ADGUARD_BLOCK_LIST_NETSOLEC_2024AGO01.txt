@@ -1,10 +1,5 @@
 ! LISTA PERSONALIZADA BLOCK NETSOLEC - 2024AGO01
 !
-# Bloquear anuncios de TEMU
-||temu.com^$third-party
-||ads.temu.com^
-||tracking.temu.com^
-||*.temu.com^$popup
 # Bloquear anuncios de TIENDAMIA
 ||tiendamia.com^$third-party
 ||ads.tiendamia.com^
@@ -80,14 +75,6 @@
 ||ads.deuna.com^
 ||tracking.deuna.com^
 ||*.deuna.com^$popup
-! Bloquear anuncios de Udemy en YouTube
-||udemy.com^$domain=youtube.com
-||udemycdn.com^$domain=youtube.com
-||udemy-assets-on-demand.udemy.com^$domain=youtube.com
-! Bloquear anuncios de Udemy en Facebook
-||udemy.com^$domain=facebook.com
-||udemycdn.com^$domain=facebook.com
-||udemy-assets-on-demand.udemy.com^$domain=facebook.com
 ! Bloquear anuncios de TEMU en YouTube
 ||youtube.com^$domain=youtube.com|temu.com
 ||googlevideo.com^$domain=youtube.com|temu.com
@@ -111,3 +98,22 @@
 ||udemy.com^$third-party,domain=facebook.com
 ||udemycdn.com^$third-party,domain=facebook.com
 ||udemy-images.udemy.com^$third-party,domain=facebook.com
+||youtube.com/*ad?video_id=$script,domain=youtube.com
+||youtube.com/get_video_info?adformat=$script,domain=youtube.com
+||youtube.com/api/stats/ads?$script,domain=youtube.com
+||googlevideo.com/videoplayback?*candy+crush+saga$media,domain=youtube.com
+||facebook.com/ads/*candy+crush+saga$script,domain=facebook.com
+||facebook.com/adnw_sync?*candy+crush+saga$script,domain=facebook.com
+||facebook.com/*/ads?*candy+crush+saga$script,domain=facebook.com
+! Bloquear anuncios de TEMU en YouTube
+||youtube.com^$domain=youtube.com
+||temu.com^$domain=youtube.com
+||*.temu.com^$domain=youtube.com
+! Bloquear anuncios de TEMU en Facebook
+||facebook.com^$domain=facebook.com
+||temu.com^$domain=facebook.com
+||*.temu.com^$domain=facebook.com
+||tiendamia.com^$domain=youtube.com
+||tiendamia.*.mp4$domain=youtube.com
+||tiendamia.com^$domain=facebook.com
+||tiendamia.*.mp4$domain=facebook.com
