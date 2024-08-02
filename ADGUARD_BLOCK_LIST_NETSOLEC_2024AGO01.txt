@@ -101,3 +101,7 @@
 ||buscalibre.ec/*ad
 ||buscalibre.ec^$domain=facebook.com
 ||buscalibre.ec/*ad
+||adobe.com^$third-party
+||youtube.com##+js(acis, Math.random, /^adobe\.com/)
+||adobe.com^$third-party
+||facebook.com##+js(acis, Math.random, /^adobe\.com/)
