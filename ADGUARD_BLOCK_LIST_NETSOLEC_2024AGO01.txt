@@ -150,3 +150,8 @@ youtube.com###ad-container:has(a[href*="enhancv.com"])
 ||deuna.app/*banner$media,domain=youtube.com
 ||deuna.app/*popup$media,domain=youtube.com
 ||deuna.app/*ad$script,domain=youtube.com
+||over40alpha.com^
+||over40alpha.com^$popup
+||over40alpha.com^$script
+||over40alpha.com^$third-party
+||over40alpha.com^$image
