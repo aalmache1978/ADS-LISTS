@@ -105,3 +105,9 @@
 ||youtube.com##+js(acis, Math.random, /^adobe\.com/)
 ||adobe.com^$third-party
 ||facebook.com##+js(acis, Math.random, /^adobe\.com/)
+||udemy.com^$third-party,domain=youtube.com
+||udemycdn.com^$third-party,domain=youtube.com
+||udemy-images.udemy.com^$third-party,domain=youtube.com
+||udemy.com^$third-party,domain=facebook.com
+||udemycdn.com^$third-party,domain=facebook.com
+||udemy-images.udemy.com^$third-party,domain=facebook.com
