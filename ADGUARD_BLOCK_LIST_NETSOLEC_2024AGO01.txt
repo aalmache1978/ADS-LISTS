@@ -140,3 +140,8 @@
 ||abogadocolombo.com^$third-party
 ||abogadocolombo.com^$popup
 ||abogadocolombo.com^$script
+! Bloquear anuncios de Enhancv.com en YouTube
+||enhancv.com^$third-party
+||enhancv.com^$script
+youtube.com##a[href*="enhancv.com"]
+youtube.com###ad-container:has(a[href*="enhancv.com"])
