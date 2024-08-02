@@ -1,20 +1,5 @@
 ! LISTA PERSONALIZADA BLOCK NETSOLEC - 2024AGO01
 !
-# Bloquear anuncios de TIENDAMIA
-||tiendamia.com^$third-party
-||ads.tiendamia.com^
-||tracking.tiendamia.com^
-||*.tiendamia.com^$popup
-# Bloquear anuncios de ABG CARLOS COLOMBO
-||colombohurdlaw.com^$third-party
-||ads.colombohurdlaw.com^
-||tracking.colombohurdlaw.com^
-||*.colombohurdlaw.com^$popup
-# Bloquear anuncios de UDEMY
-||udemy.com^$third-party
-||ads.udemy.com^
-||tracking.udemy.com^
-||*.udemy.com^$popup
 # Bloquear anuncios de ADOBE CREATIVE CLOUD MEDIA
 ||adobe.com^$third-party
 ||ads.adobe.com^
@@ -117,3 +102,27 @@
 ||tiendamia.*.mp4$domain=youtube.com
 ||tiendamia.com^$domain=facebook.com
 ||tiendamia.*.mp4$domain=facebook.com
+||youtube.com##.video-ads
+||youtube.com##.ytp-ad-module
+||youtube.com##.ytp-ad-overlay-container
+||youtube.com##.ad-container
+||youtube.com##.ytp-ad-progress
+||youtube.com##.ytp-ad-image
+||youtube.com##.ytp-ad-action-interstitial
+||youtube.com##.ytp-ad-action-companion
+||youtube.com##.ytp-ad-overlay-slot
+||youtube.com##.ytp-ad-preview-container
+||facebook.com##.ad
+||facebook.com##.sponsored_ad
+||facebook.com##.fb_ad
+||facebook.com##.fb-ads-container
+||facebook.com##.advertisement
+||facebook.com##.adColumn
+||facebook.com##.adUnit
+||facebook.com##.fbSponsoredContent
+! Bloqueo de anuncios de ABG Carlos Colombo en YouTube
+||youtube.com##.ytp-ad-text:has-text(ABG Carlos Colombo)
+||youtube.com##.ytp-ad-preview-container:has-text(ABG Carlos Colombo)
+! Bloqueo de anuncios de ABG Carlos Colombo en Facebook
+||facebook.com##.fb_ad:has-text(ABG Carlos Colombo)
+||facebook.com##.sponsored_ad:has-text(ABG Carlos Colombo)
