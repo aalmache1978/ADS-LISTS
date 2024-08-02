@@ -15,3 +15,8 @@
 ||ads.colombohurdlaw.com^
 ||tracking.colombohurdlaw.com^
 ||*.colombohurdlaw.com^$popup
+# Bloquear anuncios de UDEMY
+||udemy.com^$third-party
+||ads.udemy.com^
+||tracking.udemy.com^
+||*.udemy.com^$popup
