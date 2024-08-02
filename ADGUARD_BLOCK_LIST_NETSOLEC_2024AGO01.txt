@@ -128,3 +128,11 @@
 ||facebook.com##.sponsored_ad:has-text(ABG Carlos Colombo)
 ||mindvalley.com^$third-party
 ||mindvalley.com^$media
+||brainware-ritual.com^
+||brainware-ritual-ad.com^
+||brainwareritual.com^
+||brainwareritual-ad.com^
+||youtube.com/*ad_brainware_ritual*
+||youtube.com/*ad_brainwareritual*
+||youtube.com/*ad?brainware_ritual*
+||youtube.com/*ad?brainwareritual*
