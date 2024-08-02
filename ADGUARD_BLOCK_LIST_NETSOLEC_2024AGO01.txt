@@ -1,41 +1,41 @@
 ! LISTA PERSONALIZADA BLOCK NETSOLEC - 2024AGO01
 !
-# Bloquear anuncios de ADOBE CREATIVE CLOUD MEDIA
+! Bloquear anuncios de ADOBE CREATIVE CLOUD MEDIA
 ||adobe.com^$third-party
 ||ads.adobe.com^
 ||creativecloud.adobe.com^$popup
 ||*.adobe.com^$popup
-# Bloquear anuncios de BOOKDELIVERY
+! Bloquear anuncios de BOOKDELIVERY
 ||bookdelivery.com^$third-party
 ||ads.bookdelivery.com^
 ||tracking.bookdelivery.com^
 ||*.bookdelivery.com^$popup
-# Bloquear anuncios de ANCHORFREE VIDEO
+! Bloquear anuncios de ANCHORFREE VIDEO
 ||anchorfree.com^$third-party
 ||ads.anchorfree.com^
 ||video.anchorfree.com^$popup
 ||*.anchorfree.com^$popup
-# Bloquear anuncios de PRODUBANCO
+! Bloquear anuncios de PRODUBANCO
 ||produbanco.com^$third-party
 ||ads.produbanco.com^
 ||tracking.produbanco.com^
 ||*.produbanco.com^$popup
-# Bloquear anuncios de AI VIDEO - AIVIDEO GENERATOR
+! Bloquear anuncios de AI VIDEO - AIVIDEO GENERATOR
 ||aivideo.com^$third-party
 ||ads.aivideo.com^
 ||tracking.aivideo.com^
 ||*.aivideo.com^$popup
-# Bloquear anuncios de MINIMALIST PHONE
+! Bloquear anuncios de MINIMALIST PHONE
 ||minimalistphone.com^$third-party
 ||ads.minimalistphone.com^
 ||tracking.minimalistphone.com^
 ||*.minimalistphone.com^$popup
-# Bloquear anuncios de GARDENSCAPE
+! Bloquear anuncios de GARDENSCAPE
 ||playrix.com^$third-party
 ||ads.playrix.com^
 ||tracking.playrix.com^
 ||*.playrix.com^$popup
-# Bloquear anuncios de FACEDANCE
+! Bloquear anuncios de FACEDANCE
 ||facedanceapp.com^$third-party
 ||ads.facedanceapp.com^
 ||tracking.facedanceapp.com^
@@ -145,3 +145,8 @@
 ||enhancv.com^$script
 youtube.com##a[href*="enhancv.com"]
 youtube.com###ad-container:has(a[href*="enhancv.com"])
+||deuna.app^$third-party
+||deuna.app/*ad$media,domain=youtube.com
+||deuna.app/*banner$media,domain=youtube.com
+||deuna.app/*popup$media,domain=youtube.com
+||deuna.app/*ad$script,domain=youtube.com
