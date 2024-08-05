@@ -1,4 +1,5 @@
-! LISTA PERSONALIZADA BLOCK NETSOLEC - 2024AGO01
+! LISTA PERSONALIZADA BLOCK NETSOLEC
+! UPDATE 2024AGO01
 !
 ! Bloquear anuncios de ADOBE CREATIVE CLOUD MEDIA
 ||adobe.com^$third-party
@@ -155,3 +156,9 @@ youtube.com###ad-container:has(a[href*="enhancv.com"])
 ||over40alpha.com^$script
 ||over40alpha.com^$third-party
 ||over40alpha.com^$image
+||youtube.com/*ad_chevrolet*
+||youtube.com/*/ad_chevrolet*
+||youtube.com/get_video_info?*ad_chevrolet*
+||monopolygo.com^$script,domain=youtube.com
+||monopolygo.com^$popup,domain=youtube.com
+||monopolygo.com^$third-party,domain=youtube.com
