@@ -162,3 +162,9 @@ youtube.com###ad-container:has(a[href*="enhancv.com"])
 ||monopolygo.com^$script,domain=youtube.com
 ||monopolygo.com^$popup,domain=youtube.com
 ||monopolygo.com^$third-party,domain=youtube.com
+||udemy.com^$media
+||youtube.com/get_video_info?*adformat=*&adurl=
+||youtube.com/api/stats/ads
+||youtube.com/ptracking?event=ad*
+||youtube.com/get_midroll_info
+||youtube.com/get_companion_ad
