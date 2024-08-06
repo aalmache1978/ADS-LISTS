@@ -168,3 +168,9 @@ youtube.com###ad-container:has(a[href*="enhancv.com"])
 ||youtube.com/ptracking?event=ad*
 ||youtube.com/get_midroll_info
 ||youtube.com/get_companion_ad
+||youtube.com/*ad_video*
+||youtube.com/*ad_companion*
+||youtube.com/get_video_info?adformat=
+||youtube.com/api/stats/ads
+||youtube.com/pagead/*
+||youtube.com/watch?v=$replace=/&adformat=/
