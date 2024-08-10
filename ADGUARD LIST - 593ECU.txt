@@ -1,7 +1,7 @@
 ! ADGUARD LIST - 593ECU
 !
 ! BLOQUEO DE ANUNCIOS PARA YOUTUBE
-
+!
 ||temu.com^$important
 ||youtube.com/get_video_info?*=adformat=instream_ad$important
 ||youtube.com/api/stats/ads$important
