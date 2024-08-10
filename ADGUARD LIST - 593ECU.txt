@@ -28,5 +28,3 @@
 ||youtube.com/*ad_unit$important
 ||youtube.com/*/ad_break$important
 ||youtube.com/*adformat=preroll$important
-
-
