@@ -1,0 +1,14 @@
+! ADGUARD LIST - 593ECU
+!
+! BLOQUEO DE ANUNCIOS PARA YOUTUBE
+
+||temu.com^$important
+||youtube.com/get_video_info?*=adformat=instream_ad$important
+||youtube.com/api/stats/ads$important
+||youtube.com/ptracking$important
+||youtube.com/gen_204?at=ads$important
+||youtube.com/*ad_unit$important
+||youtube.com/*/ad_break$important
+||youtube.com/*adformat=preroll$important
+
+
