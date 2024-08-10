@@ -19,5 +19,14 @@
 ||youtube.com/*/ad_break$important
 ||youtube.com/*adformat=preroll$important
 ||youtube.com/videoplayback*adformat=evony$important
+||deuna.bancopichincha.com^$important
+||bancopichincha.com^$important
+||youtube.com/get_video_info?*=adformat=instream_ad$important
+||youtube.com/api/stats/ads$important
+||youtube.com/ptracking$important
+||youtube.com/gen_204?at=ads$important
+||youtube.com/*ad_unit$important
+||youtube.com/*/ad_break$important
+||youtube.com/*adformat=preroll$important
 
 
